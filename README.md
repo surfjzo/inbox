@@ -1,9 +1,9 @@
-#INBOX Agency
+# INBOX Agency
 This is a project build for INBOX Agency.
 
 Let's begin:
 
-###Database setup
+### Database setup
 
 Just go in the main folder and run the "initDatabase.sql" on your MySQL server.
 Now go in 'config' folder and open the db.php and put your server information
@@ -13,7 +13,7 @@ Now go in 'config' folder and open the db.php and put your server information
 'password' => '',
 ```
 
-###Server configurations
+### Server configurations
 
 If you don't want to do any configuration you can access the project with this address 
 ```
@@ -90,7 +90,7 @@ server {
 }
 ```
 
-###Mailer
+### Mailer
 
 If you want to send real email, you need to configure the web.php file, change the "useFileTransport" to false and fix the transport configuration.
 If you don't want to setup a production mailer you can access the sent email in "\runtime\mail" folder, you can open the archive with a nodePad.
@@ -110,5 +110,5 @@ If you don't want to setup a production mailer you can access the sent email in 
 ],
 ```
 
-####If you have any question, please don't hesitate to contact me.
-#####My email is surfjzo@gmail.com
+#### If you have any question, please don't hesitate to contact me.
+##### My email is surfjzo@gmail.com
